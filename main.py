@@ -61,11 +61,11 @@ for i in range(trials):
             map(lambda x: places[x]['name'], Trv.get_path()),
             map(lambda x: round(x, 2), Trv.get_time()),
             map(lambda x: round(x, 2), Trv.get_travel())
-        ), index=range(1, len(path)+2),
+        ), index=range(1, len(path)),
             columns=['Location', 'Time Spent', 'Travel Time']),
             attr(21)+bg('black')))
       ###########################################################  
-        print(stylize(f'{round(ttt,2)} hrs of Travel Time',
+        print(stylize(f'{ttt:.2f} hrs of Travel Time',
                       fg('#dd7a09')+attr(21)+bg('black')))
 
 print('─'*100)

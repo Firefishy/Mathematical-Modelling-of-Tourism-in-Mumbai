@@ -30,12 +30,5 @@ jobs:
     - name: files in dir
       run: ls
       
-    - name: Commit changes
-      uses: EndBug/add-and-commit@v4
-      with:
-        author_name: DevanshR1123
-        author_email: devanshrathor123@gmail.com
-        message: "Map update"
-        add: "map.html"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: action-push
+      uses: ludeeus/action-push@0.0.1

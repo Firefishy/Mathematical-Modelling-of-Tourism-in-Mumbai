@@ -68,5 +68,4 @@ for i in range(trials):
         print(stylize(f'{ttt:.2f} hrs of Travel Time',
                       fg('#dd7a09')+attr(21)+bg('black')))
 
-print('─'*100)
 map_path(start, path, time)

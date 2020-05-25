@@ -51,7 +51,6 @@ for i in range(trials):
     path = Trv.get_path()
     start = Trv.get_start()
     time = Trv.get_time()
-    ))
 
     if i == trials-1:
       ###########################################################

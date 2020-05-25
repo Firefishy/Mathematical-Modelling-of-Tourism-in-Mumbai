@@ -24,16 +24,18 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    - name: files in dir
+        
+    - name: Run Project
       run: python main.py
     - name: files in dir
       run: ls
-    - name: Commit files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit -m "map update" -a
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+      
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        author_name: DevanshR1123
+        author_email: devanshrathor123@gmail.com
+        message: "Map update"
+        add: "map.html"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

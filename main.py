@@ -6,8 +6,6 @@ from data import hotels, places
 from mapplot import map_path
 from random import randint,random
 
-open('test.txt','w+').write('Test 1, 2, 3')
-
 nhotels = len(hotels)
 nplaces = len(places)
 

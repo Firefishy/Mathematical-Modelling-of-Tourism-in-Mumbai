@@ -28,4 +28,5 @@ jobs:
       run: ls
     - name: run project
       run: python main.py
-
+    - name: files in dir
+      run: ls

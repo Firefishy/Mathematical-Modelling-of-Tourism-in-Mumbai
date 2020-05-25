@@ -18,9 +18,6 @@ places_prob_table = [[100/(nplaces-1)if i != j else 0 for j in range(nplaces)]
 hotels_prob_table = [[100/(nplaces) for j in range(nplaces)]
                      for i in range(nhotels)]
 
-arg = ap.ArgumentParser()
-arg.add_argument('id')
-mid = arg.parse_args().id
 tl = randint(12, 16)  # int(input('total travel time: '))
 hl = 2.5
 inc = .1
@@ -77,4 +74,4 @@ for i in range(trials):
                       fg('#dd7a09')+attr(21)+bg('black')))
 
 print('─'*100)
-map_path(start, path, time, f'map/map_{mid}.html')
+map_path(start, path, time, 'map.html')

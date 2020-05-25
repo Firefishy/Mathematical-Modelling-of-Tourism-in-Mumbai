@@ -6,6 +6,9 @@ from data import hotels, places
 from mapplot import map_path
 from random import randint,random
 
+import os
+print(os.getcwd())
+
 nhotels = len(hotels)
 nplaces = len(places)
 

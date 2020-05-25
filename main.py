@@ -70,4 +70,4 @@ for i in range(trials):
                       fg('#dd7a09')+attr(21)+bg('black')))
 
 print('─'*100)
-map_path(start, path, time, './map.html')
+map_path(start, path, time)

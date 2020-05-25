@@ -61,7 +61,7 @@ for i in range(trials):
             map(lambda x: places[x]['name'], Trv.get_path()),
             map(lambda x: round(x, 2), Trv.get_time()),
             map(lambda x: round(x, 2), Trv.get_travel())
-        ), index=range(1, len(tpath)+1),
+        ), index=range(1, len(path)+1),
             columns=['Location', 'Time Spent', 'Travel Time']),
             attr(21)+bg('black')))
       ###########################################################  

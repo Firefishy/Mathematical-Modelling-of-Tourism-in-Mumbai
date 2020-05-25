@@ -25,8 +25,15 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: files in dir
-      run: ls
-    - name: run project
       run: python main.py
     - name: files in dir
       run: ls
+    - name: Commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "map update" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

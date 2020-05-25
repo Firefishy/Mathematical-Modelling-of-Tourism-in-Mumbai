@@ -1,13 +1,10 @@
-import argparse as ap
-import sys
-
 from colored import attr, bg, fg, stylize
 from pandas import DataFrame as df
 
 from traveller import Traveller, distance
 from data import hotels, places
 from mapplot import map_path
-from random import randint
+from random import randint,random
 
 nhotels = len(hotels)
 nplaces = len(places)
@@ -19,13 +16,12 @@ hotels_prob_table = [[100/(nplaces) for j in range(nplaces)]
                      for i in range(nhotels)]
 
 tl = randint(12, 16)  # int(input('total travel time: '))
-hl = 2.5
+hl = 2 + random()
 inc = .1
-trials = 1000  # int(input('number of trials: '))
+trials = 10000  # int(input('number of trials: '))
 
 start = None
 path = []
-tpath = []
 time = []
 
 for i in range(trials):
@@ -55,14 +51,13 @@ for i in range(trials):
     path = Trv.get_path()
     start = Trv.get_start()
     time = Trv.get_time()
-    tpath = list(zip(
-        Trv.get_path(),
-        map(lambda x: round(x, 2), Trv.get_time())
     ))
 
     if i == trials-1:
+      ###########################################################
         print(stylize(hotels[Trv.get_start()]['name'],
                       attr(1)+fg('#ff9933')+bg('black')))
+      ###########################################################  
         print(stylize(df(zip(
             map(lambda x: places[x]['name'], Trv.get_path()),
             map(lambda x: round(x, 2), Trv.get_time()),
@@ -70,8 +65,9 @@ for i in range(trials):
         ), index=range(1, len(tpath)+1),
             columns=['Location', 'Time Spent', 'Travel Time']),
             attr(21)+bg('black')))
+      ###########################################################  
         print(stylize(f'{round(ttt,2)} hrs of Travel Time',
                       fg('#dd7a09')+attr(21)+bg('black')))
 
 print('─'*100)
-map_path(start, path, time, 'map.html')
+map_path(start, path, time, './map.html')

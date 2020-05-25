@@ -29,8 +29,7 @@ jobs:
         
     - name: Run Project
       run: python main.py
-    - name: files in dir
-      run: ls
+
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"

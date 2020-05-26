@@ -29,7 +29,7 @@ def map_path(start, path, time):
         width: max-content;
         height: max-content;
         top: 50px;
-        left: 80px;
+        left: 50px;
         background: rgba(0,0,0,0.8);
         z-index: 999;
         position: fixed;

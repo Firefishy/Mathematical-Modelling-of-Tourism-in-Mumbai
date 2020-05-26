@@ -38,7 +38,7 @@ def map_path(start, path, time):
         font-size: 16pt;
         ">
         <style> .tbl td,th {{padding: 0 .5em}}</style>
-        <div>
+        <div style="font-size:1rem">
             <span style="margin-left: .5em"><b>Hotel:</b> {hnames[start]} </span>
             {plist}  
         </div></div>'''

@@ -15,6 +15,7 @@ def map_path(start, path, time):
     mp.fit_bounds([(18.90, 72.77), (19.16, 72.95)])
     loc_path = list(map(lambda i: plocs[i], path))
     name_path = list(map(lambda i: pnames[i], path))
+    print(path)
     fl.PolyLine(locations=[hlocs[start]]+loc_path).add_to(mp)
     fl.Marker(location=hlocs[start], tooltip='1. '+hnames[start], icon=fl.Icon(
         color='green', icon_color='lightgray')).add_to(mp)
@@ -23,7 +24,7 @@ def map_path(start, path, time):
             color='red', icon_color='lightgray')).add_to(mp)
 
     plist = df(zip(name_path, map(lambda x: f'{int(x//1)} hrs {int((x%1)*60)} mins', time)),
-               columns=['Location', 'Time spent'], index=range(1, len(path))).to_html(border=0, classes='tbl')
+               columns=['Location', 'Time spent'], index=range(1, len(path)+1)).to_html(border=0, classes='tbl')
 
     legend = f'''<div style="
         width: max-content;

@@ -44,10 +44,9 @@ def map_path(start, path, time):
         <div class="tblC">
             <span style="margin-left: .5em"><b>Hotel:</b> {hnames[start]} </span>
             {plist}  
-        </div>
         <hr>
         <a href="https://cutt.ly/DRIPQ"><b>View Code on GitHub</b></a>
-        </div>'''
+        </div></div>'''
     mp.get_root().html.add_child(fl.Element(legend))
 
     mp.save('./map.html')

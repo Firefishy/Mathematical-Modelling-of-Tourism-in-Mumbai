@@ -18,7 +18,7 @@ hotels_prob_table = [[100/(nplaces) for j in range(nplaces)]
 tl = randint(12, 16)  # int(input('total travel time: '))
 hl = 2 + random()
 inc = .1
-trials = 1  # int(input('number of trials: '))
+trials = 10000  # int(input('number of trials: '))
 
 start = None
 path = []
@@ -45,9 +45,9 @@ for i in range(trials):
         ts += inc
         t += inc
         hp = Trv.calc_hp(curr, ts)
-
-    Trv.add_timestamp(ts)
-    Trv.add_traveltime(tt)
+    else:
+        Trv.add_timestamp(ts)
+        Trv.add_traveltime(tt)
 
     while t < tl:
         prev = places[Trv.get_location()]
@@ -63,13 +63,13 @@ for i in range(trials):
             ts += inc
             t += inc
             hp = Trv.calc_hp(curr, ts)
-
-        Trv.add_timestamp(ts)
-        Trv.add_traveltime(tt)
-
-    path = Trv.get_path()
-    start = Trv.get_start()
-    time = Trv.get_time()
+        else:
+            Trv.add_timestamp(ts)
+            Trv.add_traveltime(tt)
+    else:
+        path = Trv.get_path()
+        start = Trv.get_start()
+        time = Trv.get_time()
 
     if i == trials-1:
       ###########################################################

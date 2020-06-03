@@ -1,5 +1,5 @@
-from random import random, randint
-from math import radians, cos, sin, asin, sqrt, log1p, prod
+from math import asin, cos, log1p, prod, radians, sin, sqrt
+from random import random
 
 
 def distance(l1, l2):

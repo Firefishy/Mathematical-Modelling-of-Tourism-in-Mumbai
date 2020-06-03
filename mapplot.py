@@ -15,7 +15,6 @@ def map_path(start, path, time):
     mp.fit_bounds([(18.90, 72.77), (19.16, 72.95)])
     loc_path = list(map(lambda i: plocs[i], path))
     name_path = list(map(lambda i: pnames[i], path))
-    print(path)
     fl.PolyLine(locations=[hlocs[start]]+loc_path).add_to(mp)
     fl.Marker(location=hlocs[start], tooltip='1. '+hnames[start], icon=fl.Icon(
         color='green', icon_color='lightgray')).add_to(mp)

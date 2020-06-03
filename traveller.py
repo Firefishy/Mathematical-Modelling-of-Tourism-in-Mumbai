@@ -24,7 +24,7 @@ def calc_hp(dir=[1], inv=[1]):
     # * map_to_range(random(), 0, 1, 0.5, 1.5)
     return round(log1p(prod(dir)*prod(map(lambda x: 1/x, inv))), 2)
 
-
+#Traveller Class
 class Traveller(object):
     id = 0
 

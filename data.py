@@ -48,8 +48,5 @@ places_data['n_rating'] = n_places_rating
 places_data['n_total_rating'] = n_places_total_rating
 hotels_data['n_price'] = n_hotel_price
 
-# print(list(hotels_data['n_rating']), list(hotels_data['n_total_rating']),
-#       list(places_data['n_rating']), list(places_data['n_total_rating']), sep='\n')
-
 hotels = list(hotels_data.to_dict(orient='index').values())
 places = list(places_data.to_dict(orient='index').values())

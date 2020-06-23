@@ -1,0 +1,965 @@
+[
+	{
+		"formatted_address": "Vallabh Baug Ln, Sindhu Wadi, Ghatkopar East, Mumbai, Maharashtra 400077, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0796214,
+				"lng": 72.9066303
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.08101992989273,
+					"lng": 72.90799607989271
+				},
+				"southwest": {
+					"lat": 19.07832027010728,
+					"lng": 72.90529642010728
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+		"id": "d9c7083e2894b9f9eb70bb0a10998a64ec7f1db4",
+		"name": "Parasdham",
+		"opening_hours": {
+			"open_now": true
+		},
+		"photos": [
+			{
+				"height": 1433,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/108059155015022104140\">tejas shah</a>"
+				],
+				"photo_reference": "CmRaAAAAr4dknFHwKjqYpnrg4ZSQJ_E0jRhp6QJn7rcb9wfDiwn7_Nr0q8wQQ-6NzFnlsytgnpAj-OLXMurzvm0fXTSSKLRcYbgAVAyku3bx3taK1DC9pq7__W2caZFr7lOrrdJcEhCnZ4mNaKiA3yAi7ut6uyngGhSuHqQNW-mZ3wumw2eoE9i3FWgOwA",
+				"width": 1440
+			}
+		],
+		"place_id": "ChIJhffg4y7G5zsRLjQ_tfiNrOQ",
+		"plus_code": {
+			"compound_code": "3WH4+RM Ghatkopar East, Mumbai, Maharashtra",
+			"global_code": "7JFJ3WH4+RM"
+		},
+		"rating": 4.6,
+		"reference": "ChIJhffg4y7G5zsRLjQ_tfiNrOQ",
+		"types": [
+			"tourist_attraction",
+			"place_of_worship",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 635
+	},
+	{
+		"formatted_address": "R City Mall, 1, LBS Rd, Amrut Nagar, Ghatkopar West, Mumbai, Maharashtra 400086, India",
+		"geometry": {
+			"location": {
+				"lat": 19.100097,
+				"lng": 72.915849
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.10160012989272,
+					"lng": 72.91706257989271
+				},
+				"southwest": {
+					"lat": 19.09890047010727,
+					"lng": 72.91436292010727
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "24b8bac3f55f70d0bda1eaa49c01943a45c54827",
+		"name": "Red Carpet Wax Museum",
+		"opening_hours": {
+			"open_now": true
+		},
+		"photos": [
+			{
+				"height": 4032,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/113546787382238650564\">ajay matharu</a>"
+				],
+				"photo_reference": "CmRaAAAAsEo8JLo_tP51DnuCuea2pOvqaceeXM_yjsdn7IHcET5PFV1SgynsK3MXitsKDhc9_9QP7A4yj-LH13Lm_D6Rs5Hi7zaLSe9thgOEKuM2XeFklqmkzBWnmWEYWYmNV4EOEhDkiaYAgDJ3HfwtbmDAjZCLGhQ5ll9ZmH7PC0XdetJuMZLM9olN6g",
+				"width": 3024
+			}
+		],
+		"place_id": "ChIJkdCTV8_H5zsRxZcSVWsLNxs",
+		"plus_code": {
+			"compound_code": "4W28+28 Ghatkopar West, Mumbai, Maharashtra",
+			"global_code": "7JFJ4W28+28"
+		},
+		"rating": 4.6,
+		"reference": "ChIJkdCTV8_H5zsRxZcSVWsLNxs",
+		"types": [
+			"tourist_attraction",
+			"museum",
+			"amusement_park",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 4752
+	},
+	{
+		"formatted_address": "R City Mall, LBS Rd, Amrut Nagar, Ghatkopar West, Mumbai, Maharashtra 400086, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0999863,
+				"lng": 72.9160071
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.10155867989272,
+					"lng": 72.9171591798927
+				},
+				"southwest": {
+					"lat": 19.09885902010728,
+					"lng": 72.91445952010727
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "a509711030bc6485faaa79134311f1d335763abe",
+		"name": "Snow Kingdom (Mumbai)",
+		"opening_hours": {
+			"open_now": true
+		},
+		"photos": [
+			{
+				"height": 1365,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/106590091390912313352\">A Google User</a>"
+				],
+				"photo_reference": "CmRaAAAAWfi-XUH2uv1B45oCoX7qOPRHaKNF7QkiC2OYM3yTugE8aLJVciYCHP-Yg95aUSu8oqBKlewXvKCX13q_IXSraP0I5gGxzyaWGSpD32EmD5z2H-VxAK-DopDyM19KWzn6EhDGAMIXGJCCOVgU_HmXTlt5GhSxXZaD33rECzazSgEu39m0ntQb6w",
+				"width": 2048
+			}
+		],
+		"place_id": "ChIJiXb7WM_H5zsReEZQOfhJEZg",
+		"plus_code": {
+			"compound_code": "3WX8+XC Ghatkopar West, Mumbai, Maharashtra",
+			"global_code": "7JFJ3WX8+XC"
+		},
+		"rating": 4.7,
+		"reference": "ChIJiXb7WM_H5zsReEZQOfhJEZg",
+		"types": [
+			"tourist_attraction",
+			"amusement_park",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 20700
+	},
+	{
+		"formatted_address": "R City Mall, 3rd Floor North Wing, LBS Rd, Amrut Nagar, Ghatkopar West, Mumbai, Maharashtra 400086, India",
+		"geometry": {
+			"location": {
+				"lat": 19.099795,
+				"lng": 72.916822
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.10109147989273,
+					"lng": 72.91867097989272
+				},
+				"southwest": {
+					"lat": 19.09839182010728,
+					"lng": 72.91597132010727
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "5cd644a662ac32caabd630e8e6d5451118f10477",
+		"name": "KidZania Mumbai",
+		"photos": [
+			{
+				"height": 482,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/116371422405370578874\">Ramesh Choudhary</a>"
+				],
+				"photo_reference": "CmRaAAAAsMReR4cUwnCyXqSOtbBa8dtZPEv6sKE2sfTkwiN5EUeiAVisJNyU5bjct0X_E1wEXpoU7IoLJYW6qf1Nxprice6GhvURZtVYtObe49ZvgN6j_eydFkwL33BrjwOCOwGsEhAgQ10Cgja55OYo7g_wkDIOGhS_gIqA7IdMOEGdo2FK7HUn-LiHAg",
+				"width": 720
+			}
+		],
+		"place_id": "ChIJ2yA3rMjH5zsRmmrbtHUAJZY",
+		"plus_code": {
+			"compound_code": "3WX8+WP Ghatkopar West, Mumbai, Maharashtra",
+			"global_code": "7JFJ3WX8+WP"
+		},
+		"rating": 4.4,
+		"reference": "ChIJ2yA3rMjH5zsRmmrbtHUAJZY",
+		"types": [
+			"tourist_attraction",
+			"amusement_park",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 8244
+	},
+	{
+		"formatted_address": "Lower Ground Level 58 - 61, Phoenix Market City, Kamani Junction Kurla (W), Between Atrium 2 & 6, 15, LBS Rd, Kamani, Jn, Mumbai, Maharashtra 400070, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0866311,
+				"lng": 72.8885629
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.0873991,
+					"lng": 72.8917448
+				},
+				"southwest": {
+					"lat": 19.0843271,
+					"lng": 72.88498679999998
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "63e8227449e2db89b735696f68e1cafb18393523",
+		"name": "Snow World Mumbai",
+		"opening_hours": {
+			"open_now": true
+		},
+		"photos": [
+			{
+				"height": 635,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/117169346210445272282\">Snow World Mumbai</a>"
+				],
+				"photo_reference": "CmRaAAAAEz3P7B9I1mOouQrdbGRbKMIre4Y6FF6YV8HRxz5H3lJ5h4t1MURlVzvx4Sk36hrT_9vONvQiiHsfVwCIpFMG_GoNIcxg2xPldeSwJ1qkwaVggZRBz9yWgGeMo1nfWql3EhD8YHrBwAUL_qZ3rnaYY_GgGhQiEQDfThayMnRg_QyqStEGsKeZCA",
+				"width": 960
+			}
+		],
+		"place_id": "ChIJB-WBYH3I5zsRl3pcc5b2hZQ",
+		"plus_code": {
+			"compound_code": "3VPQ+MC Mumbai, Maharashtra",
+			"global_code": "7JFJ3VPQ+MC"
+		},
+		"rating": 4.1,
+		"reference": "ChIJB-WBYH3I5zsRl3pcc5b2hZQ",
+		"types": [
+			"tourist_attraction",
+			"amusement_park",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 7380
+	},
+	{
+		"formatted_address": "Mahakali Caves Rd, Sunder Nagar, Andheri East, Mumbai, Maharashtra 400093, India",
+		"geometry": {
+			"location": {
+				"lat": 19.1300798,
+				"lng": 72.8731738
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.13152562989272,
+					"lng": 72.87447107989273
+				},
+				"southwest": {
+					"lat": 19.12882597010728,
+					"lng": 72.87177142010728
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "18b72607a5b1294b0d2b1e7a1d01101552716fe4",
+		"name": "Mahakali Caves",
+		"opening_hours": {
+			"open_now": true
+		},
+		"photos": [
+			{
+				"height": 2462,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/108089906572665383370\">Gladston fernandes</a>"
+				],
+				"photo_reference": "CmRaAAAAeiAXNVf_oJCBnUjQacQY4l5fFxkAPMlPhhjo6OGK7XUH0k07mRNvgrzEdCuKNFCL4QCtrEtNbbl6BRDlnkPq3258XyYgmk3QAtdFJ9aws6rFsUYsrZVdDlnOLNebHD9rEhDMVRf1ihO_cfMds-rnGTnKGhSOm0sihH4CyD0TowvQ15jY7kpN7g",
+				"width": 4992
+			}
+		],
+		"place_id": "ChIJL5TDdCDI5zsR145Oq9FIrCA",
+		"plus_code": {
+			"compound_code": "4VJF+27 Andheri East, Mumbai, Maharashtra",
+			"global_code": "7JFJ4VJF+27"
+		},
+		"rating": 3.9,
+		"reference": "ChIJL5TDdCDI5zsR145Oq9FIrCA",
+		"types": [
+			"tourist_attraction",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 3941
+	},
+	{
+		"formatted_address": "Sion - Panvel Expy, Best Colony, Govandi East, Mumbai, Maharashtra 400085, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0458365,
+				"lng": 72.9095358
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.04707262989272,
+					"lng": 72.91108662989271
+				},
+				"southwest": {
+					"lat": 19.04437297010728,
+					"lng": 72.90838697010727
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "585e4d74c7e8bad92a0d322e9c4700611427c832",
+		"name": "Chhatrapati Shivaji Maharaj Statue",
+		"opening_hours": {
+			"open_now": true
+		},
+		"photos": [
+			{
+				"height": 3000,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/102031900584449863130\">Gokul Patil</a>"
+				],
+				"photo_reference": "CmRaAAAACmtgpz671dHguE1aWsvnub0GojHE_VdMqtCafPcxHYAtR4-TMr9cR2WQh1a2Ls0_j33vumjeliA9x_aX_Wrh4xx0ECaRvhN-qfOfote9BBsnIVl9QVxhEMTU2WiaNnwFEhADqvV1Qf4Ig7Jof1N3jCYNGhQsEssdx_t9krAk_YB0l1nKpQ5zWg",
+				"width": 4000
+			}
+		],
+		"place_id": "ChIJ511sOgbG5zsRNYbxtA0yTn8",
+		"plus_code": {
+			"compound_code": "2WW5+8R Govandi East, Mumbai, Maharashtra",
+			"global_code": "7JFJ2WW5+8R"
+		},
+		"rating": 4.5,
+		"reference": "ChIJ511sOgbG5zsRNYbxtA0yTn8",
+		"types": [
+			"tourist_attraction",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 11225
+	},
+	{
+		"formatted_address": "East, Rd No 1, Air Force Quarters, Sion East, Sion, Mumbai, Maharashtra 400022, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0465923,
+				"lng": 72.8676819
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.04741335,
+					"lng": 72.86878147989272
+				},
+				"southwest": {
+					"lat": 19.04412915,
+					"lng": 72.86608182010727
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "08f71b7600939eb12b30a973ce16f661dbc1d0e9",
+		"name": "Sion Fort",
+		"opening_hours": {
+			"open_now": false
+		},
+		"photos": [
+			{
+				"height": 600,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/106088615740745243882\">namitesh sandim</a>"
+				],
+				"photo_reference": "CmRZAAAAHWYXf_h7F_rHr07ypzp7I-KiAb56_-PYF1X2SRbHTSAaBpwdDsL3xeKgXaUwgwUYKBxdQUpHv_OwXcouBexWz5FpIuDu8FJ6k4HqjmuLJcokNzt6DTvWydOBkaSAvYXaEhBfgSWNEfeW9wLlF2YGYnxGGhSRtxrANpHGCK1XGERwbQ-683DKHA",
+				"width": 800
+			}
+		],
+		"place_id": "ChIJd5966M7I5zsRS6DZHR5GLmY",
+		"plus_code": {
+			"compound_code": "2VW9+J3 Sion, Mumbai, Maharashtra",
+			"global_code": "7JFJ2VW9+J3"
+		},
+		"rating": 4.1,
+		"reference": "ChIJd5966M7I5zsRS6DZHR5GLmY",
+		"types": [
+			"tourist_attraction",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 2600
+	},
+	{
+		"formatted_address": "Temple Complex, Rd Number 2, Chembur West, Sector 1, Chedda Nagar, Mumbai, Maharashtra 400089, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0682371,
+				"lng": 72.906125
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.06961242989272,
+					"lng": 72.90737172989273
+				},
+				"southwest": {
+					"lat": 19.06691277010728,
+					"lng": 72.90467207010728
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_hindu-71.png",
+		"id": "1c0846c9ce90e4653374a0021914bc4c97a266b1",
+		"name": "Sri Thiruchembur Murugan Temple",
+		"opening_hours": {},
+		"photos": [
+			{
+				"height": 4000,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/117172695763717523739\">Sowntappan Balasubramanian</a>"
+				],
+				"photo_reference": "CmRaAAAAeRCe4ksy_r56NCx3Mc3dGKcv5KYzsRonu3EE9J3xZY2QJC2Rr_aZR8PxS_WPsvWMaysjqnGda_u1upIhPJZgvdk9bGgP0La218h8Z-KLjb6RzDldGBJT45WZX0x5KS3eEhD1KeoXacoMkUAeYrN7YzGwGhRA7OUSY2Ut3Kig6oQedwEuxrN9tg",
+				"width": 3000
+			}
+		],
+		"place_id": "ChIJ____4yLG5zsRQNFcGBx-MW4",
+		"plus_code": {
+			"compound_code": "3W94+7F Chedda Nagar, Mumbai, Maharashtra",
+			"global_code": "7JFJ3W94+7F"
+		},
+		"rating": 4.7,
+		"reference": "ChIJ____4yLG5zsRQNFcGBx-MW4",
+		"types": [
+			"hindu_temple",
+			"tourist_attraction",
+			"place_of_worship",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 2151
+	},
+	{
+		"formatted_address": "Plot No. 8, Gopi Tank Marg, Mahim West, Shivaji Park, Mumbai, Maharashtra 400016, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0307401,
+				"lng": 72.84077169999999
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.03307945,
+					"lng": 72.84260884999999
+				},
+				"southwest": {
+					"lat": 19.02372205000001,
+					"lng": 72.83526024999998
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "dc3ba7f20ea983f72fd735213018567da1754a90",
+		"name": "Shivaji Park",
+		"opening_hours": {},
+		"photos": [
+			{
+				"height": 364,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/111684869328591148243\">arun chaubey</a>"
+				],
+				"photo_reference": "CmRaAAAAmyukjBAE2gPBuEz1xlsjwa8lGNXQXTI2uw6ovqw6ID1pw_-TcrCjZXxy2brL7idaaTCw8Nwi0Bve4HMsLD2bVkgfF4YYyMICf_uSCq33SDCtoIjAwG40G54c6Gy18ANcEhDmf7xZJrxQ-uemz_44vzw0GhTLWpEP-mUQivLsbl7vK--2y_xW1Q",
+				"width": 550
+			}
+		],
+		"place_id": "ChIJZflCSM7O5zsRIBfv6_numdI",
+		"plus_code": {
+			"compound_code": "2RJR+78 Mumbai, Maharashtra",
+			"global_code": "7JFJ2RJR+78"
+		},
+		"rating": 4.5,
+		"reference": "ChIJZflCSM7O5zsRIBfv6_numdI",
+		"types": [
+			"tourist_attraction",
+			"park",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 31253
+	},
+	{
+		"formatted_address": "Juhu Tara Rd, JVPD Scheme, Juhu, Mumbai, Maharashtra 400047, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0970134,
+				"lng": 72.8266203
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.09839562989272,
+					"lng": 72.82812892989271
+				},
+				"southwest": {
+					"lat": 19.09569597010727,
+					"lng": 72.82542927010728
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "8084787e09dc002a30c5f9f96f1ae8655b608d47",
+		"name": "Juhu Chowpatty",
+		"opening_hours": {
+			"open_now": true
+		},
+		"photos": [
+			{
+				"height": 576,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/117212459295022754366\">SHAM Singhaniyan</a>"
+				],
+				"photo_reference": "CmRaAAAAlguiInPMDL-Ak2bFtjzVukx12Hy5d0OXAm0kzqXL3WdVHwej1FjOqzB0TgZiAeBTXc-aGS4YuROVXQZ50g15xpoG5wSUjB4FiNUzubtRRu7tMdM3AE5S8VITmLGImOfdEhAq3cRD_JgfqEyrgnuLeFLvGhTBN_KfHturQz2pfhx3nmgetvj3ig",
+				"width": 1024
+			}
+		],
+		"place_id": "ChIJy4WKDJbJ5zsRoYh8E4YZiiw",
+		"plus_code": {
+			"compound_code": "3RWG+RJ Mumbai, Maharashtra",
+			"global_code": "7JFJ3RWG+RJ"
+		},
+		"rating": 4.1,
+		"reference": "ChIJy4WKDJbJ5zsRoYh8E4YZiiw",
+		"types": [
+			"tourist_attraction",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 59780
+	},
+	{
+		"formatted_address": "C-5, Western Express Highway, Nargis Dutt Nagar, Nityanand Nagar, Reclamation, Bandra West, Mumbai, Maharashtra 400050, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0494731,
+				"lng": 72.8335274
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.05088892989273,
+					"lng": 72.8370875
+				},
+				"southwest": {
+					"lat": 19.04818927010728,
+					"lng": 72.8323407
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "152e6003336c7d97598b717b595575d12ac5050f",
+		"name": "Love Mumbai",
+		"opening_hours": {
+			"open_now": true
+		},
+		"photos": [
+			{
+				"height": 3120,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/105556090736757836667\">Aadil Srivastava</a>"
+				],
+				"photo_reference": "CmRaAAAA9mobAl8BfXuxnY8hu87-xJrj7XOfqWOCXcNtTF6-jMpkat3xfFgJLN0Xehto_KG5iEBJHDdBq9sPhJeOwWXyrsYea3d_0SKqZ7i2YvKmwoDvFp7rDrvjemyQmjlK35RKEhDufKg_SKu8JtI6n5Ofw4lcGhRHdQagZovfkYKBbspJdROgKT9sqA",
+				"width": 4160
+			}
+		],
+		"place_id": "ChIJU53hfjnJ5zsRYarp-yZx2NU",
+		"plus_code": {
+			"compound_code": "2RXM+QC Mumbai, Maharashtra",
+			"global_code": "7JFJ2RXM+QC"
+		},
+		"rating": 4.4,
+		"reference": "ChIJU53hfjnJ5zsRYarp-yZx2NU",
+		"types": [
+			"tourist_attraction",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 5819
+	},
+	{
+		"formatted_address": "Byramji Jeejeebhoy Road, Bandstand Road, Mumbai, Maharashtra 400050, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0418892,
+				"lng": 72.81835939999999
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.04380847989272,
+					"lng": 72.81983372989272
+				},
+				"southwest": {
+					"lat": 19.04110882010728,
+					"lng": 72.81713407010727
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "8bc6aa33564c6d24e8f04ba4602a9bdf067177ee",
+		"name": "Bandra Fort",
+		"opening_hours": {
+			"open_now": true
+		},
+		"photos": [
+			{
+				"height": 3120,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/112857651532477931939\">Olly Alva</a>"
+				],
+				"photo_reference": "CmRaAAAADD2uBPAKr4BQ1Zcs8Hr0bYG2iYrJTqgyIOJl94Bt79HhXNdTl1ZWuMzczMR5tYw9lCA73dSVSo8PvTbTlNNKAqSD3X4lkSjCfZYLpZdMClW801FGEus4Hz6QSAlC6WmFEhB78JEAqQdsf91nkCUGgYWfGhTIAYW2vLJYKOQ69fs86fwokGczsg",
+				"width": 4160
+			}
+		],
+		"place_id": "ChIJL-M37E_J5zsRvCVUI05gHL0",
+		"plus_code": {
+			"compound_code": "2RR9+Q8 Mumbai, Maharashtra",
+			"global_code": "7JFJ2RR9+Q8"
+		},
+		"rating": 4.4,
+		"reference": "ChIJL-M37E_J5zsRvCVUI05gHL0",
+		"types": [
+			"tourist_attraction",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 20193
+	},
+	{
+		"formatted_address": "BJ Road, Mount Mary, Bandra West, Mumbai, Maharashtra 400050, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0451833,
+				"lng": 72.81908659999999
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.04650452989272,
+					"lng": 72.82051732989271
+				},
+				"southwest": {
+					"lat": 19.04380487010728,
+					"lng": 72.81781767010727
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "45135f99c1bff763ef9bd6944a9a4f1c34f09e65",
+		"name": "Band Stand",
+		"opening_hours": {
+			"open_now": true
+		},
+		"photos": [
+			{
+				"height": 2340,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/116723616827717986240\">Chandan Singha</a>"
+				],
+				"photo_reference": "CmRaAAAAsDMiH9QMubwzD054Vgd2EhkH53aa2UylEuhTRLC-CuKs4ntFkXcEcgEjI14WM7uzyBIvUsm487B0rCJjN0RcF6hGdJ2eio2E6Wz8lLbwQvP7JE8fMr03QpE_Fb_QPvA2EhCYiGHBZsqK8JHkYV8fVzvoGhTJbUlxvdLJXNqKi1QCfJ0Hv-Oy0w",
+				"width": 4160
+			}
+		],
+		"place_id": "ChIJSRH78kXJ5zsRIs_v9o69UuI",
+		"plus_code": {
+			"compound_code": "2RW9+3J Bandra West, Mumbai, Maharashtra",
+			"global_code": "7JFJ2RW9+3J"
+		},
+		"rating": 4.4,
+		"reference": "ChIJSRH78kXJ5zsRIs_v9o69UuI",
+		"types": [
+			"tourist_attraction",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 36113
+	},
+	{
+		"formatted_address": "Dargah Street, The Mahim Makarand CHS, Mahim West, Mahim, Mumbai, Maharashtra 400016, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0400459,
+				"lng": 72.8387764
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.04135477989272,
+					"lng": 72.84006627989272
+				},
+				"southwest": {
+					"lat": 19.03865512010728,
+					"lng": 72.83736662010728
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "a36ffe6f0b7131c6a7873fb79f5a7646cb01741c",
+		"name": "Dargah Hazrat Makhdum Fakih Ali Mahimi RA",
+		"opening_hours": {},
+		"photos": [
+			{
+				"height": 3000,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/114286859254271777043\">Shambhu Bhartiya</a>"
+				],
+				"photo_reference": "CmRaAAAAEMQM3tBaJccJ3h7XgD2Bxtz1E18LV8HnyDte_CONJGG-NCGy4N7oHvEOL2sP4mdRDqMwmLHbQFblHAX1OlamKeIde1oEQNKIGsoFa1CyuJPWlVsVmuAxB1O4AMkfbaktEhCXs8_k1IQQaP3DISLMhzLKGhSJvglB2VgZLHU84Xot1UGYis2POA",
+				"width": 5333
+			}
+		],
+		"place_id": "ChIJtUwbrtLO5zsRY-rrigQZ1aQ",
+		"plus_code": {
+			"compound_code": "2RRQ+2G Mumbai, Maharashtra",
+			"global_code": "7JFJ2RRQ+2G"
+		},
+		"rating": 4.8,
+		"reference": "ChIJtUwbrtLO5zsRY-rrigQZ1aQ",
+		"types": [
+			"tourist_attraction",
+			"place_of_worship",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 10331
+	},
+	{
+		"formatted_address": "20, Jogeshwari - Vikhroli Link Rd, Panchkutir Ganesh Nagar, Powai, Mumbai, Maharashtra 400076, India",
+		"geometry": {
+			"location": {
+				"lat": 19.1235558,
+				"lng": 72.91068039999999
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.12504402989272,
+					"lng": 72.91197487989272
+				},
+				"southwest": {
+					"lat": 19.12234437010728,
+					"lng": 72.90927522010728
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_hindu-71.png",
+		"id": "bf2923666264006211f04ddd387b5f832d4c35ec",
+		"name": "Suvarna Temple",
+		"opening_hours": {
+			"open_now": true
+		},
+		"photos": [
+			{
+				"height": 3000,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/113971960147946142370\">A Google User</a>"
+				],
+				"photo_reference": "CmRaAAAA6GEIQlD12sRgMFW6sRwPYhxj97hMPVMTjcRooI09eMsTLEsz8khDeos1516971DZ4GStsJyUuQX7-bhGBp5sR1SL1S8Df5q_Wm0NWxTl1XvvLV8rQnTJ14WRUSPsyb7REhDfsC-InlQhUuXYiXtwqtS6GhQ3S2P7hBnX7nks1XUE2wvKaFuxZw",
+				"width": 4000
+			}
+		],
+		"place_id": "ChIJvwvoCfDH5zsR2NHHX-bEX2E",
+		"plus_code": {
+			"compound_code": "4WF6+C7 Powai, Mumbai, Maharashtra",
+			"global_code": "7JFJ4WF6+C7"
+		},
+		"rating": 4.7,
+		"reference": "ChIJvwvoCfDH5zsR2NHHX-bEX2E",
+		"types": [
+			"hindu_temple",
+			"tourist_attraction",
+			"place_of_worship",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 1446
+	},
+	{
+		"formatted_address": "SK Bole Marg, Prabhadevi, Mumbai, Maharashtra 400028, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0168159,
+				"lng": 72.8302491
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.01834852989272,
+					"lng": 72.83162897989273
+				},
+				"southwest": {
+					"lat": 19.01564887010728,
+					"lng": 72.82892932010728
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_hindu-71.png",
+		"id": "5aaecb609c0025603a45a35bb428d892527c3562",
+		"name": "Shri Siddhi Vinayak Ganpati Mandir",
+		"photos": [
+			{
+				"height": 600,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/110422850123753812972\">Raghav Chudasama</a>"
+				],
+				"photo_reference": "CmRaAAAAv5xqLPPbLFZJC6W-xBA_I3IX772nCt2sZD_n8Tr9wUDpkJMt-HGes5MMh2t9mG_Ue8y6uwzOvxoSNWhnTSJoYC7NRZ9EPd1x3PSP6wNsyCuQa4p2hHmCUe5iUp4uPeZCEhAie_2WqI7G72V4VOn0rDaYGhRqM75v9FksSukFrGyI6t6HNav7BA",
+				"width": 480
+			}
+		],
+		"place_id": "ChIJw-tR2MDO5zsRKWNSFGmHYcw",
+		"plus_code": {
+			"compound_code": "2R8J+P3 Prabhadevi, Mumbai, Maharashtra",
+			"global_code": "7JFJ2R8J+P3"
+		},
+		"rating": 4.8,
+		"reference": "ChIJw-tR2MDO5zsRKWNSFGmHYcw",
+		"types": [
+			"hindu_temple",
+			"tourist_attraction",
+			"place_of_worship",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 48811
+	},
+	{
+		"formatted_address": "Mahim Bay, Maharashtra 400030, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0361111,
+				"lng": 72.8171625
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.03746092989272,
+					"lng": 72.81851232989273
+				},
+				"southwest": {
+					"lat": 19.03476127010728,
+					"lng": 72.81581267010728
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "0407411c5f3555091c1d750fa42da6981d6406d3",
+		"name": "Bandra Worli Sea Link",
+		"opening_hours": {
+			"open_now": true
+		},
+		"photos": [
+			{
+				"height": 361,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/108529166080335764440\">Sai Production</a>"
+				],
+				"photo_reference": "CmRaAAAAkRHe7r9ZuCeBI12ekRjazqqMAyCJe_x8h4NsWJrkl4Xp69PuGdjGMUCtOUg9V5AcLjcD6dqRkAMthCvJlCFmMQugsFbuEj1FnSiipc0TPEmVVmMiFhUBFMlJkj9hKCLvEhD4hRh0hmfJDe3a0qpdaPu5GhQ0NEEeYnWeJw3POMwssxYWeZwTuA",
+				"width": 538
+			}
+		],
+		"place_id": "ChIJkWQ8sq_O5zsRIY-SEEQJzAQ",
+		"plus_code": {
+			"compound_code": "2RP8+CV Mumbai, Maharashtra",
+			"global_code": "7JFJ2RP8+CV"
+		},
+		"rating": 4.7,
+		"reference": "ChIJkWQ8sq_O5zsRIY-SEEQJzAQ",
+		"types": [
+			"tourist_attraction",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 7554
+	},
+	{
+		"formatted_address": "Sion Bandra Link Road, Dharavi, opp. Bus Depot, Mumbai, Maharashtra 400017, India",
+		"geometry": {
+			"location": {
+				"lat": 19.0522583,
+				"lng": 72.86276409999999
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.05316122989272,
+					"lng": 72.86686264999999
+				},
+				"southwest": {
+					"lat": 19.05046157010728,
+					"lng": 72.85529805
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+		"id": "a031a11e1db91529280d7317df29b3ae1a4ddc9c",
+		"name": "Maharashtra Nature Park",
+		"opening_hours": {
+			"open_now": true
+		},
+		"photos": [
+			{
+				"height": 3120,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/114284535543579075807\">A Google User</a>"
+				],
+				"photo_reference": "CmRZAAAApLfIpQY2Y1Cp7u7upjxVu_jG4X1_Cu5GOOvYyCpiCnzJaHjKHBjIwlnOwXQPoKRxKclpa39iv4yHLcIBhxxdJbcDWED2f38PMeYDN2I8UzPeooCQUuq1hjCMR2gJuvftEhCuCwvG8lAzsRVoj8cRV1p8GhQcimaC2txYdkrU1xE2tFJNf3zRXA",
+				"width": 4160
+			}
+		],
+		"place_id": "ChIJMQw-GtvI5zsRwERQp-CzzbQ",
+		"plus_code": {
+			"compound_code": "3V27+W4 Mumbai, Maharashtra",
+			"global_code": "7JFJ3V27+W4"
+		},
+		"rating": 4.2,
+		"reference": "ChIJMQw-GtvI5zsRwERQp-CzzbQ",
+		"types": [
+			"park",
+			"tourist_attraction",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 3244
+	},
+	{
+		"formatted_address": "15, Vaikunthlal Mehta Rd, Yamuna Nagar, Nehru Nagar, Airport Area, Juhu, Mumbai, Maharashtra 400049, India",
+		"geometry": {
+			"location": {
+				"lat": 19.1039685,
+				"lng": 72.8299892
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 19.10535177989273,
+					"lng": 72.83134777989272
+				},
+				"southwest": {
+					"lat": 19.10265212010728,
+					"lng": 72.82864812010729
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+		"id": "95484896b2328fc007bed76ccd4fbcc2fa9b6ab9",
+		"name": "Mumbai Selfie Point",
+		"opening_hours": {
+			"open_now": true
+		},
+		"photos": [
+			{
+				"height": 3024,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/101998034787389808844\">Swapnil Singh</a>"
+				],
+				"photo_reference": "CmRaAAAAe6FP4j_lpJdP_2860K6KDmxwubRXFfvSVziVWNwAZKgx5lCB1Ryx2zIRkXJBSQ3i1IKExDAPGFilzqPEAiDiYvQdXkWDniekTV7Xvh-Flzw6yflHgT_wNc3G9rFJscRxEhCAzh8LfiqtENOZTn_L6epFGhTfNYLXPWHUH9QHXNWjBPN2wW-oSg",
+				"width": 4032
+			}
+		],
+		"place_id": "ChIJg1rdcMDJ5zsRc5hZPYRGFOs",
+		"plus_code": {
+			"compound_code": "4R3H+HX Juhu, Mumbai, Maharashtra",
+			"global_code": "7JFJ4R3H+HX"
+		},
+		"rating": 4,
+		"reference": "ChIJg1rdcMDJ5zsRc5hZPYRGFOs",
+		"types": [
+			"tourist_attraction",
+			"point_of_interest",
+			"establishment"
+		],
+		"user_ratings_total": 729
+	}
+]

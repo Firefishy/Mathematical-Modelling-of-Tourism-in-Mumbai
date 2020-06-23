@@ -4,15 +4,23 @@ from pandas import DataFrame as df
 # 18.89,19.21,19.05
 # 72.77,72.95,72.86
 
-plocs = list(map(lambda p: (p['lat'], p['lng']), places))
-pnames = list(map(lambda p: p['name'], places))
-hlocs = list(map(lambda p: (p['lat'], p['lng']), hotels))
-hnames = list(map(lambda p: p['name'], hotels))
+plocs = [(p['lat'], p['lng']) for p in places]
+pnames = [p['name'] for p in places]
+hlocs = [(h['lat'], h['lng']) for h in hotels]
+hnames = [h['name'] for h in hotels]
+
+lats = [l[0] for l in hlocs]
+lons = [l[1] for l in hlocs]
+
+latb = (max(lats)+.05, min(lats)-.05)
+lonb = (max(lons)+.05, min(lons)-.05)
+c = [sum(latb)/2, sum(lonb)/2]
+bb = [(latb[1], lonb[1]), (latb[0], lonb[0])]
 
 
 def map_path(start, path, time):
-    mp = fl.Map(location=[19.05, 72.86], zoom_start=16)
-    mp.fit_bounds([(18.90, 72.77), (19.16, 72.95)])
+    mp = fl.Map(location=c, zoom_start=16)
+    mp.fit_bounds(bb)
     loc_path = list(map(lambda i: plocs[i], path))
     name_path = list(map(lambda i: pnames[i], path))
     fl.PolyLine(locations=[hlocs[start]]+loc_path).add_to(mp)

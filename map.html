@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_2c322242ad3a490f95a663b996d464ac {
+                #map_6a0b79ae4025482cb566c136376470da {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -51,7 +51,7 @@
         @media (max-width:600px){ .tblC {font-size: .5em} }
         </style>
         <div class="tblC">
-            <span style="margin-left: .5em"><b>Hotel:</b> Trident </span>
+            <span style="margin-left: .5em"><b>Hotel:</b> Hotel Sahara Star </span>
             <table border="0" class="dataframe tbl">
   <thead>
     <tr style="text-align: right;">
@@ -63,38 +63,43 @@
   <tbody>
     <tr>
       <th>1</th>
+      <td>Bandra Fort</td>
+      <td>1 hrs 54 mins</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>Bandra Worli Sea Link</td>
       <td>1 hrs 48 mins</td>
     </tr>
     <tr>
-      <th>2</th>
-      <td>Worli Fort</td>
+      <th>3</th>
+      <td>Worli Sea Face</td>
       <td>1 hrs 36 mins</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>4</th>
       <td>Gateway Of India Mumbai</td>
       <td>2 hrs 36 mins</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>5</th>
       <td>Jehangir Art Gallery</td>
       <td>1 hrs 48 mins</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>6</th>
       <td>Chhatrapati Shivaji Maharaj Terminus</td>
       <td>1 hrs 48 mins</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>7</th>
       <td>Fashion Street</td>
       <td>1 hrs 42 mins</td>
     </tr>
     <tr>
-      <th>7</th>
-      <td>National Gallery of Modern Art</td>
-      <td>0 hrs 18 mins</td>
+      <th>8</th>
+      <td>Shree Mahalakshmi Temple</td>
+      <td>0 hrs 6 mins</td>
     </tr>
   </tbody>
 </table>  
@@ -102,13 +107,13 @@
         <a href="https://cutt.ly/DRIPQ"><b>View Code on GitHub</b></a>
         </div></div>
     
-            <div class="folium-map" id="map_2c322242ad3a490f95a663b996d464ac" ></div>
+            <div class="folium-map" id="map_6a0b79ae4025482cb566c136376470da" ></div>
         
 </body>
 <script>    
     
-            var map_2c322242ad3a490f95a663b996d464ac = L.map(
-                "map_2c322242ad3a490f95a663b996d464ac",
+            var map_6a0b79ae4025482cb566c136376470da = L.map(
+                "map_6a0b79ae4025482cb566c136376470da",
                 {
                     center: [19.02805885, 72.86047595],
                     crs: L.CRS.EPSG3857,
@@ -122,179 +127,199 @@
 
         
     
-            var tile_layer_8cf38f194d2d45af875503b1cf643807 = L.tileLayer(
+            var tile_layer_b2bee71aa35949efbda0bb4835771c5b = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_2c322242ad3a490f95a663b996d464ac);
+            ).addTo(map_6a0b79ae4025482cb566c136376470da);
         
     
-            map_2c322242ad3a490f95a663b996d464ac.fitBounds(
+            map_6a0b79ae4025482cb566c136376470da.fitBounds(
                 [[18.8717291, 72.7694558], [19.184388600000002, 72.9514961]],
                 {}
             );
         
     
-            var poly_line_6eaadac8f7b34c7a8ed72987fd66fe00 = L.polyline(
-                [[19.0665942, 72.8675032], [19.0361111, 72.8171625], [19.0237125, 72.8168], [18.9219841, 72.8346543], [18.9273983, 72.8316856], [18.9398446, 72.8354475], [18.9389419, 72.8301069], [18.9259588, 72.831385]],
+            var poly_line_63efc038a88a475f8f7f6528f1a63f00 = L.polyline(
+                [[19.0957428, 72.8538296], [19.0418892, 72.8183594], [19.0361111, 72.8171625], [19.0091432, 72.8157283], [18.9219841, 72.8346543], [18.9273983, 72.8316856], [18.9398446, 72.8354475], [18.9389419, 72.8301069], [18.9775342, 72.8064465]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_2c322242ad3a490f95a663b996d464ac);
+            ).addTo(map_6a0b79ae4025482cb566c136376470da);
         
     
-            var marker_7551519692a34f6fa58c77ed0fffcc70 = L.marker(
-                [19.0665942, 72.8675032],
+            var marker_6500e930ce974893bea3b2bc2c0fffec = L.marker(
+                [19.0957428, 72.8538296],
                 {}
-            ).addTo(map_2c322242ad3a490f95a663b996d464ac);
+            ).addTo(map_6a0b79ae4025482cb566c136376470da);
         
     
-            var icon_ac3e6f8b5e2640ef9be24965088fff5f = L.AwesomeMarkers.icon(
+            var icon_572a6389b64d45b1b4777e8ecc2e23df = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_7551519692a34f6fa58c77ed0fffcc70.setIcon(icon_ac3e6f8b5e2640ef9be24965088fff5f);
+            marker_6500e930ce974893bea3b2bc2c0fffec.setIcon(icon_572a6389b64d45b1b4777e8ecc2e23df);
         
     
-            marker_7551519692a34f6fa58c77ed0fffcc70.bindTooltip(
+            marker_6500e930ce974893bea3b2bc2c0fffec.bindTooltip(
                 `<div>
-                     1. Trident
+                     1. Hotel Sahara Star
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_39992da721fd4a3ca916f8157a21dfff = L.marker(
+            var marker_cc05f2eaae044312bd71c9c645f69302 = L.marker(
+                [19.0418892, 72.8183594],
+                {}
+            ).addTo(map_6a0b79ae4025482cb566c136376470da);
+        
+    
+            var icon_8395b101b3444a4e82a3dad0b4282ab9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cc05f2eaae044312bd71c9c645f69302.setIcon(icon_8395b101b3444a4e82a3dad0b4282ab9);
+        
+    
+            marker_cc05f2eaae044312bd71c9c645f69302.bindTooltip(
+                `<div>
+                     2. Bandra Fort
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d60ae8a83a74cc180dc33722b88884e = L.marker(
                 [19.0361111, 72.8171625],
                 {}
-            ).addTo(map_2c322242ad3a490f95a663b996d464ac);
+            ).addTo(map_6a0b79ae4025482cb566c136376470da);
         
     
-            var icon_edb9209fd1d644bab7dd7082dce5107a = L.AwesomeMarkers.icon(
+            var icon_979715fc00594273b889b3dcaa36aa2e = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_39992da721fd4a3ca916f8157a21dfff.setIcon(icon_edb9209fd1d644bab7dd7082dce5107a);
+            marker_5d60ae8a83a74cc180dc33722b88884e.setIcon(icon_979715fc00594273b889b3dcaa36aa2e);
         
     
-            marker_39992da721fd4a3ca916f8157a21dfff.bindTooltip(
+            marker_5d60ae8a83a74cc180dc33722b88884e.bindTooltip(
                 `<div>
-                     2. Bandra Worli Sea Link
+                     3. Bandra Worli Sea Link
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_02b6bc84129b4286b3975322b1a92bbb = L.marker(
-                [19.0237125, 72.8168],
+            var marker_d4db89ef0fb045d0969f0e1f66738de3 = L.marker(
+                [19.0091432, 72.8157283],
                 {}
-            ).addTo(map_2c322242ad3a490f95a663b996d464ac);
+            ).addTo(map_6a0b79ae4025482cb566c136376470da);
         
     
-            var icon_292a90f2096a484e811b5b4af10f8f2d = L.AwesomeMarkers.icon(
+            var icon_66d5e7395bfd422cacde4ac5bbac144e = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_02b6bc84129b4286b3975322b1a92bbb.setIcon(icon_292a90f2096a484e811b5b4af10f8f2d);
+            marker_d4db89ef0fb045d0969f0e1f66738de3.setIcon(icon_66d5e7395bfd422cacde4ac5bbac144e);
         
     
-            marker_02b6bc84129b4286b3975322b1a92bbb.bindTooltip(
+            marker_d4db89ef0fb045d0969f0e1f66738de3.bindTooltip(
                 `<div>
-                     3. Worli Fort
+                     4. Worli Sea Face
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_a06b5cc6f386457c8e7421b9a8f4dd68 = L.marker(
+            var marker_6a118344588a4d3fbf02b271e8dcc026 = L.marker(
                 [18.9219841, 72.8346543],
                 {}
-            ).addTo(map_2c322242ad3a490f95a663b996d464ac);
+            ).addTo(map_6a0b79ae4025482cb566c136376470da);
         
     
-            var icon_b5c73d5a5cfe4a93b0af28e08fb18b5a = L.AwesomeMarkers.icon(
+            var icon_f75fa77180ac4eabafe3c18d8a208311 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_a06b5cc6f386457c8e7421b9a8f4dd68.setIcon(icon_b5c73d5a5cfe4a93b0af28e08fb18b5a);
+            marker_6a118344588a4d3fbf02b271e8dcc026.setIcon(icon_f75fa77180ac4eabafe3c18d8a208311);
         
     
-            marker_a06b5cc6f386457c8e7421b9a8f4dd68.bindTooltip(
+            marker_6a118344588a4d3fbf02b271e8dcc026.bindTooltip(
                 `<div>
-                     4. Gateway Of India Mumbai
+                     5. Gateway Of India Mumbai
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_635313cee5b041d8882f95ab372fc40d = L.marker(
+            var marker_994ad785a1c74253a67b13bf09896577 = L.marker(
                 [18.9273983, 72.8316856],
                 {}
-            ).addTo(map_2c322242ad3a490f95a663b996d464ac);
+            ).addTo(map_6a0b79ae4025482cb566c136376470da);
         
     
-            var icon_17a2d7f8245743128d4dc6ed30779d49 = L.AwesomeMarkers.icon(
+            var icon_6278beb7b6af462088a605a4ee2d13fe = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_635313cee5b041d8882f95ab372fc40d.setIcon(icon_17a2d7f8245743128d4dc6ed30779d49);
+            marker_994ad785a1c74253a67b13bf09896577.setIcon(icon_6278beb7b6af462088a605a4ee2d13fe);
         
     
-            marker_635313cee5b041d8882f95ab372fc40d.bindTooltip(
+            marker_994ad785a1c74253a67b13bf09896577.bindTooltip(
                 `<div>
-                     5. Jehangir Art Gallery
+                     6. Jehangir Art Gallery
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_882b2cba5715406594421bc5e89c3eec = L.marker(
+            var marker_f521a69ad7b94d00aebdb16107d2ed6c = L.marker(
                 [18.9398446, 72.8354475],
                 {}
-            ).addTo(map_2c322242ad3a490f95a663b996d464ac);
+            ).addTo(map_6a0b79ae4025482cb566c136376470da);
         
     
-            var icon_3db16039e49444e3ba7d857eb94f0a5a = L.AwesomeMarkers.icon(
+            var icon_043ee05f8123450e890b7e96725b18e8 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_882b2cba5715406594421bc5e89c3eec.setIcon(icon_3db16039e49444e3ba7d857eb94f0a5a);
+            marker_f521a69ad7b94d00aebdb16107d2ed6c.setIcon(icon_043ee05f8123450e890b7e96725b18e8);
         
     
-            marker_882b2cba5715406594421bc5e89c3eec.bindTooltip(
+            marker_f521a69ad7b94d00aebdb16107d2ed6c.bindTooltip(
                 `<div>
-                     6. Chhatrapati Shivaji Maharaj Terminus
+                     7. Chhatrapati Shivaji Maharaj Terminus
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_1e5eb61de7e944c2a76daa4301ac94df = L.marker(
+            var marker_31245f86211a4e87971080dc236812a2 = L.marker(
                 [18.9389419, 72.8301069],
                 {}
-            ).addTo(map_2c322242ad3a490f95a663b996d464ac);
+            ).addTo(map_6a0b79ae4025482cb566c136376470da);
         
     
-            var icon_c57b0bd65b16427eb622f4da875e7279 = L.AwesomeMarkers.icon(
+            var icon_68ee676d6ae54a588994e3a872502529 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_1e5eb61de7e944c2a76daa4301ac94df.setIcon(icon_c57b0bd65b16427eb622f4da875e7279);
+            marker_31245f86211a4e87971080dc236812a2.setIcon(icon_68ee676d6ae54a588994e3a872502529);
         
     
-            marker_1e5eb61de7e944c2a76daa4301ac94df.bindTooltip(
+            marker_31245f86211a4e87971080dc236812a2.bindTooltip(
                 `<div>
-                     7. Fashion Street
+                     8. Fashion Street
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_9a0e4888cf084abc8487225152088777 = L.marker(
-                [18.9259588, 72.831385],
+            var marker_2a60ccf38d15491f96a5ca017aeba303 = L.marker(
+                [18.9775342, 72.8064465],
                 {}
-            ).addTo(map_2c322242ad3a490f95a663b996d464ac);
+            ).addTo(map_6a0b79ae4025482cb566c136376470da);
         
     
-            var icon_3830a67dfa3a4866b3b1dc20e6d17562 = L.AwesomeMarkers.icon(
+            var icon_4101bb8bda484682a0e41f5a9afbce2b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_9a0e4888cf084abc8487225152088777.setIcon(icon_3830a67dfa3a4866b3b1dc20e6d17562);
+            marker_2a60ccf38d15491f96a5ca017aeba303.setIcon(icon_4101bb8bda484682a0e41f5a9afbce2b);
         
     
-            marker_9a0e4888cf084abc8487225152088777.bindTooltip(
+            marker_2a60ccf38d15491f96a5ca017aeba303.bindTooltip(
                 `<div>
-                     8. National Gallery of Modern Art
+                     9. Shree Mahalakshmi Temple
                  </div>`,
                 {"sticky": true}
             );

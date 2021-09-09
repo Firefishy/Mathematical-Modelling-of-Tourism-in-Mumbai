@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_ca5e084a5a4b41c1a5a88bb81559cb81 {
+                #map_6e6dbd1ef28e4e68af6861d42b17204b {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -51,7 +51,7 @@
         @media (max-width:600px){ .tblC {font-size: .5em} }
         </style>
         <div class="tblC">
-            <span style="margin-left: .5em"><b>Hotel:</b> JW Marriott Mumbai Juhu </span>
+            <span style="margin-left: .5em"><b>Hotel:</b> Taj Lands End, Mumbai </span>
             <table border="0" class="dataframe tbl">
   <thead>
     <tr style="text-align: right;">
@@ -68,28 +68,38 @@
     </tr>
     <tr>
       <th>2</th>
-      <td>Bandstand Promenade</td>
-      <td>1 hrs 18 mins</td>
+      <td>Haji Ali Dargah</td>
+      <td>2 hrs 0 mins</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>Bandra Worli Sea Link</td>
-      <td>2 hrs 6 mins</td>
+      <td>Shree Mahalakshmi Temple</td>
+      <td>2 hrs 12 mins</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>Worli Sea Face</td>
-      <td>1 hrs 48 mins</td>
-    </tr>
-    <tr>
-      <th>5</th>
       <td>Shri Siddhi Vinayak Ganpati Mandir</td>
       <td>2 hrs 24 mins</td>
     </tr>
     <tr>
+      <th>5</th>
+      <td>Dharavi</td>
+      <td>1 hrs 42 mins</td>
+    </tr>
+    <tr>
       <th>6</th>
-      <td>Juhu Chowpatty</td>
-      <td>0 hrs 53 mins</td>
+      <td>Dr. Bhau Daji Lad Museum</td>
+      <td>1 hrs 54 mins</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Veer Mata Jijabai Bhosale Udyan And Zoo</td>
+      <td>1 hrs 30 mins</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Chhatrapati Shivaji Maharaj Terminus</td>
+      <td>0 hrs 36 mins</td>
     </tr>
   </tbody>
 </table>  
@@ -97,13 +107,13 @@
         <a href="https://cutt.ly/DRIPQ"><b>View Code on GitHub</b></a>
         </div></div>
     
-            <div class="folium-map" id="map_ca5e084a5a4b41c1a5a88bb81559cb81" ></div>
+            <div class="folium-map" id="map_6e6dbd1ef28e4e68af6861d42b17204b" ></div>
         
 </body>
 <script>    
     
-            var map_ca5e084a5a4b41c1a5a88bb81559cb81 = L.map(
-                "map_ca5e084a5a4b41c1a5a88bb81559cb81",
+            var map_6e6dbd1ef28e4e68af6861d42b17204b = L.map(
+                "map_6e6dbd1ef28e4e68af6861d42b17204b",
                 {
                     center: [19.02805885, 72.86047595],
                     crs: L.CRS.EPSG3857,
@@ -117,57 +127,57 @@
 
         
     
-            var tile_layer_7ab39b52b5db47dfb02d387f760fab7a = L.tileLayer(
+            var tile_layer_7463d3ed633a483daaacb5a6d34e04b2 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_ca5e084a5a4b41c1a5a88bb81559cb81);
+            ).addTo(map_6e6dbd1ef28e4e68af6861d42b17204b);
         
     
-            map_ca5e084a5a4b41c1a5a88bb81559cb81.fitBounds(
+            map_6e6dbd1ef28e4e68af6861d42b17204b.fitBounds(
                 [[18.8717291, 72.7694558], [19.184388600000002, 72.9514961]],
                 {}
             );
         
     
-            var poly_line_646edd18863048fea16705f3748eacec = L.polyline(
-                [[19.1020372, 72.8261813], [19.0418892, 72.8183594], [19.0505162, 72.8213859], [19.0361111, 72.8171625], [19.0091432, 72.8157283], [19.0168159, 72.8302491], [19.0970134, 72.8266203]],
+            var poly_line_6347d87844154b68bef0da08e4e5674f = L.polyline(
+                [[19.0435385, 72.8194558], [19.0418892, 72.8183594], [18.982747, 72.8089648], [18.9775342, 72.8064465], [19.0168159, 72.8302491], [19.0380334, 72.8537589], [18.9789889, 72.8348153], [18.97871, 72.8351211], [18.9398446, 72.8354475]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_ca5e084a5a4b41c1a5a88bb81559cb81);
+            ).addTo(map_6e6dbd1ef28e4e68af6861d42b17204b);
         
     
-            var marker_0bd1af5e13a54202b26f0e4748fa87c0 = L.marker(
-                [19.1020372, 72.8261813],
+            var marker_c1df35fb0eb84ea7b07dcac3684a5248 = L.marker(
+                [19.0435385, 72.8194558],
                 {}
-            ).addTo(map_ca5e084a5a4b41c1a5a88bb81559cb81);
+            ).addTo(map_6e6dbd1ef28e4e68af6861d42b17204b);
         
     
-            var icon_7581c0e9dc0348ed8228b9a057b72705 = L.AwesomeMarkers.icon(
+            var icon_ee965d6cf067448db28e39c6ece34829 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_0bd1af5e13a54202b26f0e4748fa87c0.setIcon(icon_7581c0e9dc0348ed8228b9a057b72705);
+            marker_c1df35fb0eb84ea7b07dcac3684a5248.setIcon(icon_ee965d6cf067448db28e39c6ece34829);
         
     
-            marker_0bd1af5e13a54202b26f0e4748fa87c0.bindTooltip(
+            marker_c1df35fb0eb84ea7b07dcac3684a5248.bindTooltip(
                 `<div>
-                     1. JW Marriott Mumbai Juhu
+                     1. Taj Lands End, Mumbai
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_a99ecb6ddbea4be3b2dd7e0a224293ea = L.marker(
+            var marker_6638a46a1e4d4e29a99e55cc9272b9f7 = L.marker(
                 [19.0418892, 72.8183594],
                 {}
-            ).addTo(map_ca5e084a5a4b41c1a5a88bb81559cb81);
+            ).addTo(map_6e6dbd1ef28e4e68af6861d42b17204b);
         
     
-            var icon_58dbaac183554a8eaa7fc5a343c0246a = L.AwesomeMarkers.icon(
+            var icon_5c32fa521a54474d9bc26b467655e6ba = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_a99ecb6ddbea4be3b2dd7e0a224293ea.setIcon(icon_58dbaac183554a8eaa7fc5a343c0246a);
+            marker_6638a46a1e4d4e29a99e55cc9272b9f7.setIcon(icon_5c32fa521a54474d9bc26b467655e6ba);
         
     
-            marker_a99ecb6ddbea4be3b2dd7e0a224293ea.bindTooltip(
+            marker_6638a46a1e4d4e29a99e55cc9272b9f7.bindTooltip(
                 `<div>
                      2. Bandra Fort
                  </div>`,
@@ -175,101 +185,141 @@
             );
         
     
-            var marker_677f46006a794614b6962de5251d02af = L.marker(
-                [19.0505162, 72.8213859],
+            var marker_0551931a5576455397f6440b0c244010 = L.marker(
+                [18.982747, 72.8089648],
                 {}
-            ).addTo(map_ca5e084a5a4b41c1a5a88bb81559cb81);
+            ).addTo(map_6e6dbd1ef28e4e68af6861d42b17204b);
         
     
-            var icon_2742df61dbaf491ba532f298aacaf298 = L.AwesomeMarkers.icon(
+            var icon_6dd06ce027384eeeb69e67837f360bbc = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_677f46006a794614b6962de5251d02af.setIcon(icon_2742df61dbaf491ba532f298aacaf298);
+            marker_0551931a5576455397f6440b0c244010.setIcon(icon_6dd06ce027384eeeb69e67837f360bbc);
         
     
-            marker_677f46006a794614b6962de5251d02af.bindTooltip(
+            marker_0551931a5576455397f6440b0c244010.bindTooltip(
                 `<div>
-                     3. Bandstand Promenade
+                     3. Haji Ali Dargah
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_ca2c23ad7e6e4ba1bc6f9d50706c8cd8 = L.marker(
-                [19.0361111, 72.8171625],
+            var marker_0eaecde57f52404cbbcf06744b56e2de = L.marker(
+                [18.9775342, 72.8064465],
                 {}
-            ).addTo(map_ca5e084a5a4b41c1a5a88bb81559cb81);
+            ).addTo(map_6e6dbd1ef28e4e68af6861d42b17204b);
         
     
-            var icon_a67a84551e0d4145a316d292c48d30c5 = L.AwesomeMarkers.icon(
+            var icon_4baacd8564a44bb3ae44cb0bd9e9af82 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_ca2c23ad7e6e4ba1bc6f9d50706c8cd8.setIcon(icon_a67a84551e0d4145a316d292c48d30c5);
+            marker_0eaecde57f52404cbbcf06744b56e2de.setIcon(icon_4baacd8564a44bb3ae44cb0bd9e9af82);
         
     
-            marker_ca2c23ad7e6e4ba1bc6f9d50706c8cd8.bindTooltip(
+            marker_0eaecde57f52404cbbcf06744b56e2de.bindTooltip(
                 `<div>
-                     4. Bandra Worli Sea Link
+                     4. Shree Mahalakshmi Temple
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_cd315c72f61648c291b462a52ffda650 = L.marker(
-                [19.0091432, 72.8157283],
-                {}
-            ).addTo(map_ca5e084a5a4b41c1a5a88bb81559cb81);
-        
-    
-            var icon_ff175b2fe9fb468a9cb8b56251788829 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_cd315c72f61648c291b462a52ffda650.setIcon(icon_ff175b2fe9fb468a9cb8b56251788829);
-        
-    
-            marker_cd315c72f61648c291b462a52ffda650.bindTooltip(
-                `<div>
-                     5. Worli Sea Face
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_e0b61d7f125e4fb59251a702ae79d18c = L.marker(
+            var marker_f9d30dc3ab794210b9f204899b54ce86 = L.marker(
                 [19.0168159, 72.8302491],
                 {}
-            ).addTo(map_ca5e084a5a4b41c1a5a88bb81559cb81);
+            ).addTo(map_6e6dbd1ef28e4e68af6861d42b17204b);
         
     
-            var icon_548ed827eeca4d1384e92ad37149aca1 = L.AwesomeMarkers.icon(
+            var icon_73b0ddbdc4614d86b974cffeb8342e4a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_e0b61d7f125e4fb59251a702ae79d18c.setIcon(icon_548ed827eeca4d1384e92ad37149aca1);
+            marker_f9d30dc3ab794210b9f204899b54ce86.setIcon(icon_73b0ddbdc4614d86b974cffeb8342e4a);
         
     
-            marker_e0b61d7f125e4fb59251a702ae79d18c.bindTooltip(
+            marker_f9d30dc3ab794210b9f204899b54ce86.bindTooltip(
                 `<div>
-                     6. Shri Siddhi Vinayak Ganpati Mandir
+                     5. Shri Siddhi Vinayak Ganpati Mandir
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_3b375158f17348ca88f82494ef61f6e9 = L.marker(
-                [19.0970134, 72.8266203],
+            var marker_6b976a08a02d4a14b30d3d10ed6eb319 = L.marker(
+                [19.0380334, 72.8537589],
                 {}
-            ).addTo(map_ca5e084a5a4b41c1a5a88bb81559cb81);
+            ).addTo(map_6e6dbd1ef28e4e68af6861d42b17204b);
         
     
-            var icon_03536ac225564e2a99abfafa5be1edc6 = L.AwesomeMarkers.icon(
+            var icon_009a9eb0a271498f977137aeef7dfd34 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_3b375158f17348ca88f82494ef61f6e9.setIcon(icon_03536ac225564e2a99abfafa5be1edc6);
+            marker_6b976a08a02d4a14b30d3d10ed6eb319.setIcon(icon_009a9eb0a271498f977137aeef7dfd34);
         
     
-            marker_3b375158f17348ca88f82494ef61f6e9.bindTooltip(
+            marker_6b976a08a02d4a14b30d3d10ed6eb319.bindTooltip(
                 `<div>
-                     7. Juhu Chowpatty
+                     6. Dharavi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ec8094efcc246588494d9f51466211a = L.marker(
+                [18.9789889, 72.8348153],
+                {}
+            ).addTo(map_6e6dbd1ef28e4e68af6861d42b17204b);
+        
+    
+            var icon_d6c43e78d08349d8974952a9738ee97a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3ec8094efcc246588494d9f51466211a.setIcon(icon_d6c43e78d08349d8974952a9738ee97a);
+        
+    
+            marker_3ec8094efcc246588494d9f51466211a.bindTooltip(
+                `<div>
+                     7. Dr. Bhau Daji Lad Museum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b74231435ca047e7b72a9e9069015dc6 = L.marker(
+                [18.97871, 72.8351211],
+                {}
+            ).addTo(map_6e6dbd1ef28e4e68af6861d42b17204b);
+        
+    
+            var icon_e4a2c794959f4058ab2e43486208d8b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b74231435ca047e7b72a9e9069015dc6.setIcon(icon_e4a2c794959f4058ab2e43486208d8b9);
+        
+    
+            marker_b74231435ca047e7b72a9e9069015dc6.bindTooltip(
+                `<div>
+                     8. Veer Mata Jijabai Bhosale Udyan And Zoo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e175fb6cc044cafb5e1947718931bf7 = L.marker(
+                [18.9398446, 72.8354475],
+                {}
+            ).addTo(map_6e6dbd1ef28e4e68af6861d42b17204b);
+        
+    
+            var icon_f40be340e0d74603b1658a350d4a340a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1e175fb6cc044cafb5e1947718931bf7.setIcon(icon_f40be340e0d74603b1658a350d4a340a);
+        
+    
+            marker_1e175fb6cc044cafb5e1947718931bf7.bindTooltip(
+                `<div>
+                     9. Chhatrapati Shivaji Maharaj Terminus
                  </div>`,
                 {"sticky": true}
             );

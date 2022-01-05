@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_63b127f01d0b46529c6ad003a45a3c29 {
+                #map_db7cb5bb48614becbf214ea9d8da5d22 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -51,7 +51,7 @@
         @media (max-width:600px){ .tblC {font-size: .5em} }
         </style>
         <div class="tblC">
-            <span style="margin-left: .5em"><b>Hotel:</b> Hotel Sahara Star </span>
+            <span style="margin-left: .5em"><b>Hotel:</b> The Taj Mahal Palace </span>
             <table border="0" class="dataframe tbl">
   <thead>
     <tr style="text-align: right;">
@@ -63,28 +63,43 @@
   <tbody>
     <tr>
       <th>1</th>
-      <td>Bandra Fort</td>
-      <td>2 hrs 6 mins</td>
+      <td>Gateway Of India Mumbai</td>
+      <td>2 hrs 36 mins</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Bandstand Promenade</td>
-      <td>1 hrs 24 mins</td>
+      <td>Chhatrapati Shivaji Maharaj Terminus</td>
+      <td>1 hrs 48 mins</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>Bandra Worli Sea Link</td>
-      <td>2 hrs 6 mins</td>
+      <td>Shree Mahalakshmi Temple</td>
+      <td>1 hrs 54 mins</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>Gateway Of India Mumbai</td>
-      <td>2 hrs 54 mins</td>
+      <td>Hanging Gardens Mumbai</td>
+      <td>1 hrs 48 mins</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>Chhatrapati Shivaji Maharaj Terminus</td>
-      <td>2 hrs 0 mins</td>
+      <td>Fashion Street</td>
+      <td>1 hrs 42 mins</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Marine Drive</td>
+      <td>1 hrs 42 mins</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Colaba Causeway</td>
+      <td>1 hrs 30 mins</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Chhatrapati Shivaji Maharaj Vastu Sangrahalaya</td>
+      <td>1 hrs 54 mins</td>
     </tr>
   </tbody>
 </table>  
@@ -92,13 +107,13 @@
         <a href="https://cutt.ly/DRIPQ"><b>View Code on GitHub</b></a>
         </div></div>
     
-            <div class="folium-map" id="map_63b127f01d0b46529c6ad003a45a3c29" ></div>
+            <div class="folium-map" id="map_db7cb5bb48614becbf214ea9d8da5d22" ></div>
         
 </body>
 <script>    
     
-            var map_63b127f01d0b46529c6ad003a45a3c29 = L.map(
-                "map_63b127f01d0b46529c6ad003a45a3c29",
+            var map_db7cb5bb48614becbf214ea9d8da5d22 = L.map(
+                "map_db7cb5bb48614becbf214ea9d8da5d22",
                 {
                     center: [19.02805885, 72.86047595],
                     crs: L.CRS.EPSG3857,
@@ -112,139 +127,199 @@
 
         
     
-            var tile_layer_6d34142021584567b9b6f8c03f959fcd = L.tileLayer(
+            var tile_layer_94128bfd19744d82bc0aeaec88bc6bfa = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_63b127f01d0b46529c6ad003a45a3c29);
+            ).addTo(map_db7cb5bb48614becbf214ea9d8da5d22);
         
     
-            map_63b127f01d0b46529c6ad003a45a3c29.fitBounds(
+            map_db7cb5bb48614becbf214ea9d8da5d22.fitBounds(
                 [[18.8717291, 72.7694558], [19.184388600000002, 72.9514961]],
                 {}
             );
         
     
-            var poly_line_739ac631acb34b979fee0cb6f6a8594b = L.polyline(
-                [[19.0957428, 72.8538296], [19.0418892, 72.8183594], [19.0505162, 72.8213859], [19.0361111, 72.8171625], [18.9219841, 72.8346543], [18.9398446, 72.8354475]],
+            var poly_line_22b194831b894a0cbdf8110e2e341cc5 = L.polyline(
+                [[18.9217291, 72.8330309], [18.9219841, 72.8346543], [18.9398446, 72.8354475], [18.9775342, 72.8064465], [18.9568662, 72.8049626], [18.9389419, 72.8301069], [18.9432135, 72.8229996], [18.9145814, 72.8244085], [18.9269015, 72.8326916]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_63b127f01d0b46529c6ad003a45a3c29);
+            ).addTo(map_db7cb5bb48614becbf214ea9d8da5d22);
         
     
-            var marker_0f74167cdda14beaa65e20ed87abdd10 = L.marker(
-                [19.0957428, 72.8538296],
+            var marker_def07aadfd984b42814611d54203609a = L.marker(
+                [18.9217291, 72.8330309],
                 {}
-            ).addTo(map_63b127f01d0b46529c6ad003a45a3c29);
+            ).addTo(map_db7cb5bb48614becbf214ea9d8da5d22);
         
     
-            var icon_8b6bd748bf1a41a49b01deb7ad8eebfe = L.AwesomeMarkers.icon(
+            var icon_1a1d10a30fbe448ab4de0d2498af8f4e = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_0f74167cdda14beaa65e20ed87abdd10.setIcon(icon_8b6bd748bf1a41a49b01deb7ad8eebfe);
+            marker_def07aadfd984b42814611d54203609a.setIcon(icon_1a1d10a30fbe448ab4de0d2498af8f4e);
         
     
-            marker_0f74167cdda14beaa65e20ed87abdd10.bindTooltip(
+            marker_def07aadfd984b42814611d54203609a.bindTooltip(
                 `<div>
-                     1. Hotel Sahara Star
+                     1. The Taj Mahal Palace
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_e0458c743f8e424fb2f44c46b6d1bd43 = L.marker(
-                [19.0418892, 72.8183594],
-                {}
-            ).addTo(map_63b127f01d0b46529c6ad003a45a3c29);
-        
-    
-            var icon_f15b2525a03e432587a989dc2de6a41e = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_e0458c743f8e424fb2f44c46b6d1bd43.setIcon(icon_f15b2525a03e432587a989dc2de6a41e);
-        
-    
-            marker_e0458c743f8e424fb2f44c46b6d1bd43.bindTooltip(
-                `<div>
-                     2. Bandra Fort
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_db07152f9b39481b82738e8ec544263b = L.marker(
-                [19.0505162, 72.8213859],
-                {}
-            ).addTo(map_63b127f01d0b46529c6ad003a45a3c29);
-        
-    
-            var icon_b81163d2bb9546d8bbd2f7ac57b1ec82 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_db07152f9b39481b82738e8ec544263b.setIcon(icon_b81163d2bb9546d8bbd2f7ac57b1ec82);
-        
-    
-            marker_db07152f9b39481b82738e8ec544263b.bindTooltip(
-                `<div>
-                     3. Bandstand Promenade
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_cec969176cfc464a9e7bdf5f87a77ab0 = L.marker(
-                [19.0361111, 72.8171625],
-                {}
-            ).addTo(map_63b127f01d0b46529c6ad003a45a3c29);
-        
-    
-            var icon_268ac22be6c645acbd3db614065f8d16 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_cec969176cfc464a9e7bdf5f87a77ab0.setIcon(icon_268ac22be6c645acbd3db614065f8d16);
-        
-    
-            marker_cec969176cfc464a9e7bdf5f87a77ab0.bindTooltip(
-                `<div>
-                     4. Bandra Worli Sea Link
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_dc71ba28cc24444a8812a0dc925891ec = L.marker(
+            var marker_7b3f0e4d8f8640fdb6740cfc2499bb2f = L.marker(
                 [18.9219841, 72.8346543],
                 {}
-            ).addTo(map_63b127f01d0b46529c6ad003a45a3c29);
+            ).addTo(map_db7cb5bb48614becbf214ea9d8da5d22);
         
     
-            var icon_5cd11607d2fc43c99151771d91380cd2 = L.AwesomeMarkers.icon(
+            var icon_29ed93ef67b34d48802dac7eb2305636 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_dc71ba28cc24444a8812a0dc925891ec.setIcon(icon_5cd11607d2fc43c99151771d91380cd2);
+            marker_7b3f0e4d8f8640fdb6740cfc2499bb2f.setIcon(icon_29ed93ef67b34d48802dac7eb2305636);
         
     
-            marker_dc71ba28cc24444a8812a0dc925891ec.bindTooltip(
+            marker_7b3f0e4d8f8640fdb6740cfc2499bb2f.bindTooltip(
                 `<div>
-                     5. Gateway Of India Mumbai
+                     2. Gateway Of India Mumbai
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_b4006890330f4032aa18ae36b056589f = L.marker(
+            var marker_609c39b0a0cc44b397c0a7e39c2885e3 = L.marker(
                 [18.9398446, 72.8354475],
                 {}
-            ).addTo(map_63b127f01d0b46529c6ad003a45a3c29);
+            ).addTo(map_db7cb5bb48614becbf214ea9d8da5d22);
         
     
-            var icon_130681907e264923a7433a8c9315598d = L.AwesomeMarkers.icon(
+            var icon_fd98d5074cac48c49315e4ac330710ef = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_b4006890330f4032aa18ae36b056589f.setIcon(icon_130681907e264923a7433a8c9315598d);
+            marker_609c39b0a0cc44b397c0a7e39c2885e3.setIcon(icon_fd98d5074cac48c49315e4ac330710ef);
         
     
-            marker_b4006890330f4032aa18ae36b056589f.bindTooltip(
+            marker_609c39b0a0cc44b397c0a7e39c2885e3.bindTooltip(
                 `<div>
-                     6. Chhatrapati Shivaji Maharaj Terminus
+                     3. Chhatrapati Shivaji Maharaj Terminus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c068b4ed9d843b0b91fe1eb05abc116 = L.marker(
+                [18.9775342, 72.8064465],
+                {}
+            ).addTo(map_db7cb5bb48614becbf214ea9d8da5d22);
+        
+    
+            var icon_d7e1fd140a114c128f5dadc6fd47b08d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c068b4ed9d843b0b91fe1eb05abc116.setIcon(icon_d7e1fd140a114c128f5dadc6fd47b08d);
+        
+    
+            marker_9c068b4ed9d843b0b91fe1eb05abc116.bindTooltip(
+                `<div>
+                     4. Shree Mahalakshmi Temple
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e535ac6fd0cb4a9283cc5611fca0f238 = L.marker(
+                [18.9568662, 72.8049626],
+                {}
+            ).addTo(map_db7cb5bb48614becbf214ea9d8da5d22);
+        
+    
+            var icon_1e496b0412a54da6a52cac7a80cb5349 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e535ac6fd0cb4a9283cc5611fca0f238.setIcon(icon_1e496b0412a54da6a52cac7a80cb5349);
+        
+    
+            marker_e535ac6fd0cb4a9283cc5611fca0f238.bindTooltip(
+                `<div>
+                     5. Hanging Gardens Mumbai
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d65277797674db2917cf141eb1a0f9f = L.marker(
+                [18.9389419, 72.8301069],
+                {}
+            ).addTo(map_db7cb5bb48614becbf214ea9d8da5d22);
+        
+    
+            var icon_7e67366119494fc2897ed7591bc151ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9d65277797674db2917cf141eb1a0f9f.setIcon(icon_7e67366119494fc2897ed7591bc151ce);
+        
+    
+            marker_9d65277797674db2917cf141eb1a0f9f.bindTooltip(
+                `<div>
+                     6. Fashion Street
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b51a9ee7e97a4a7cad19407ba7f83244 = L.marker(
+                [18.9432135, 72.8229996],
+                {}
+            ).addTo(map_db7cb5bb48614becbf214ea9d8da5d22);
+        
+    
+            var icon_5302ed11570846f39f99cc18368caec3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b51a9ee7e97a4a7cad19407ba7f83244.setIcon(icon_5302ed11570846f39f99cc18368caec3);
+        
+    
+            marker_b51a9ee7e97a4a7cad19407ba7f83244.bindTooltip(
+                `<div>
+                     7. Marine Drive
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebdaf547e2804516a346ead9bd65b391 = L.marker(
+                [18.9145814, 72.8244085],
+                {}
+            ).addTo(map_db7cb5bb48614becbf214ea9d8da5d22);
+        
+    
+            var icon_7d7225d4c23943db8d7e7a604627ccc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ebdaf547e2804516a346ead9bd65b391.setIcon(icon_7d7225d4c23943db8d7e7a604627ccc1);
+        
+    
+            marker_ebdaf547e2804516a346ead9bd65b391.bindTooltip(
+                `<div>
+                     8. Colaba Causeway
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b1b8a71d8d9462fa6d60b85974cb513 = L.marker(
+                [18.9269015, 72.8326916],
+                {}
+            ).addTo(map_db7cb5bb48614becbf214ea9d8da5d22);
+        
+    
+            var icon_3395283f24ea4220a667c2318a386ee6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b1b8a71d8d9462fa6d60b85974cb513.setIcon(icon_3395283f24ea4220a667c2318a386ee6);
+        
+    
+            marker_2b1b8a71d8d9462fa6d60b85974cb513.bindTooltip(
+                `<div>
+                     9. Chhatrapati Shivaji Maharaj Vastu Sangrahalaya
                  </div>`,
                 {"sticky": true}
             );
